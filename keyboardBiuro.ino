@@ -13,13 +13,13 @@ void loop(){
   if(left_click == LOW){
     Keyboard.press(KEY_LEFT_CTRL);
     Keyboard.press(99);
-    delay(50);
+    delay(500);
     Keyboard.releaseAll();
   }
   if(right_click == LOW){
     Keyboard.press(KEY_LEFT_CTRL);
     Keyboard.press(118);
-    delay(50);
+    delay(500);
     Keyboard.releaseAll();
   }
 }
