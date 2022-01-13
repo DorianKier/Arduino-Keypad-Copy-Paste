@@ -12,15 +12,14 @@ void setup(){
 void loop(){
   if(left_click == LOW){
     Keyboard.press(KEY_LEFT_CTRL);
-    Keyboard.press(67);
-    delay(100);
+    Keyboard.press(99);
+    delay(50);
+    Keyboard.releaseAll();
   }
-  else if(right_click == LOW){
+  if(right_click == LOW){
     Keyboard.press(KEY_LEFT_CTRL);
-    Keyboard.press(86);
-    delay(100);
-  }
-  else{
+    Keyboard.press(118);
+    delay(50);
     Keyboard.releaseAll();
   }
 }
